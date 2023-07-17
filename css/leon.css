@@ -310,6 +310,7 @@ background-color: #ff788b;
 }
 .about .container .text p{
     margin: 30px auto;
+    font-size: 15px;
 }
 .about .container .text p:first-child{
     font-weight: 600;
