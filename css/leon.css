@@ -34,30 +34,30 @@ html{
     scroll-padding-top: 10px;
 }
 header {
-padding: 10px 20px;
+    padding: 10px 20px;
 }
 .container {
-width: 80%;
-margin: auto;
-display: flex;
-height: 100%;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 #head-icon {
-width: 70px;
+    width: 70px;
 }
 #head-icon img {
-width: 100%;
-filter: hue-rotate(180deg);
--webkit-filter: hue-rotate(180deg);
+    width: 100%;
+    filter: hue-rotate(180deg);
+    -webkit-filter: hue-rotate(180deg);
 }
 
 
 header .container i {
-font-size: 40px;
-cursor: pointer;
+    font-size: 40px;
+    cursor: pointer;
 }
 header .container ul {
     display: none;
@@ -99,14 +99,14 @@ header .container ul li{
 ul li a{
     text-decoration: none;
     color: #ff788b;
-    transition: all 0.2s 0.1s ease;
-    -webkit-transition: all 0.2s 0.1s ease;
-    -moz-transition: all 0.2s 0.1s ease;
-    -ms-transition: all 0.2s 0.1s ease;
-    -o-transition: all 0.2s 0.1s ease;
+    transition: padding 0.2s 0.0s ease-in-out;
+    -webkit-transition: padding 0.2s 0.0s ease-in-out;
+    -moz-transition: padding 0.2s 0.0s ease-in-out;
+    -ms-transition: padding 0.2s 0.0s ease-in-out;
+    -o-transition: padding 0.2s 0.0s ease-in-out;
 }
 ul li:hover a{
-    padding-left: 10px;
+    padding-left: 25px;
 }
 ul li:not(:last-child){
     border-bottom: 1px solid rgba(148, 143, 143, 0.322);
